@@ -10,8 +10,8 @@ PieChartPercentage.prototype.init = function () {
   self.margin = { top: 30, right: 20, bottom: 30, left: 50 }; // svg margins
   var pieChartDiv = d3.select("#pie-chart") // div container in the html
 
-  self.svgWidth = 800 - self.margin.left - self.margin.right;
-  self.svgHeight = 700;
+  self.svgWidth = 450 - self.margin.left - self.margin.right;
+  self.svgHeight = 400;
 
   // creates svg element within the div
   self.mainSVG = pieChartDiv.append("svg")
@@ -43,8 +43,8 @@ PieChartPercentage.prototype.drawLegend = function () {
   d3.select("#pie-chart-legend").select("svg").remove();
 
   // some constants used in this function
-  const legendRectSize = 30;
-  const legendSpacing = 6.75;
+  const legendRectSize = 17.5;
+  const legendSpacing = 5.25;
   const color = d3.scaleOrdinal()
     .domain(['Negative', 'Neutral', 'Positive'])
     .range(['#9b1c31', '#002366', '#136207']);
@@ -80,7 +80,7 @@ PieChartPercentage.prototype.drawLegend = function () {
     .style('stroke', color);
 
   legend.append('text')
-    .style("font-size", "30px")
+    .style("font-size", "0.90rem")
     .attr('x', legendRectSize + legendSpacing)
     .attr('y', legendRectSize - legendSpacing + 1.2)
     .text(function (d) { return d; });

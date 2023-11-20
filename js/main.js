@@ -9,14 +9,7 @@
     var booksDisplay = new BooksDisplay(lineChart, pieChartPercentage);
 
     // set up the initial layout for when the browser loads
-    booksDisplay.adjustDimensions();
     booksDisplay.update();
-
-    // window resize listener upon changing
-    window.addEventListener('resize', function () {
-      booksDisplay.adjustDimensions();
-      booksDisplay.update();
-    });
   }
 
   /**

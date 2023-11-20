@@ -1,6 +1,6 @@
 # Interactive Fairy Tale Emotion Analysis Visualization 📊 🦄
 
-Welcome to my project that leverages the power of D3.js, Python, and machine learning to analyze and visualize the emotional tones in English fairy tales. This project aims to understand how children's stories can shape one's perception through the lens of emotional tones in what they perceive from the story.
+Welcome to my project that leverages the power of D3.js, Python, and machine learning to analyze and visualize the emotional tones in fairy tales. This project aims to understand how children's stories can shape one's perception through the lens of emotional tones in what they perceive from the story.
 
 ## [Explore the Visualization](https://fairytales-analysis.vercel.app/)
 Click the link above to experience the interactive visualization firsthand!

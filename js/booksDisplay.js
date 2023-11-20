@@ -13,26 +13,23 @@ BooksDisplay.prototype.init = function () {
   self.margin = { top: 10, right: 20, bottom: 30, left: 20 }; // svg margins
   var booksDisplayDiv = d3.select("#books-display").classed("fullView", true);
 
-  self.svgWidth = 650 - self.margin.left - self.margin.right;
-  self.svgHeight = 400;
+  self.svgWidth = 725 - self.margin.left - self.margin.right;
+  self.svgHeight = 250;
 
   // create svg element within the div
   self.svg = booksDisplayDiv.append("svg")
     .attr("width", self.svgWidth)
     .attr("height", self.svgHeight)
 
-  this.adjustDimensions() // adjust dimensions on window resize
+  this.update()
 
-  window.addEventListener('resize', function () {
-    self.adjustDimensions();
-  });
 }
 
-BooksDisplay.prototype.adjustDimensions = function () {
-  var self = this;
-  self.svgWidth = d3.select("#books-display").node().clientWidth - self.margin.left - self.margin.right;
-  self.svg.attr("width", self.svgWidth);
-}
+// BooksDisplay.prototype.adjustDimensions = function () {
+//   var self = this;
+//   self.svgWidth = d3.select("#books-display").node().clientWidth - self.margin.left - self.margin.right;
+//   self.svg.attr("width", self.svgWidth);
+// }
 
 BooksDisplay.prototype.update = function () {
   var self = this;
@@ -77,12 +74,10 @@ BooksDisplay.prototype.update = function () {
     .enter().append("text")
     .attr("class", "bookRectText")
     .attr("fill", "#f9e279")
-    .attr("x", self.svgWidth / 2)
+    .attr("x", 30)
     .attr("y", function (d, i) {
-      return (i * rectHeight) + (rectHeight / 2);
+      return (i * rectHeight) + (rectHeight / 2) + 4;
     })
-    .attr("text-anchor", "middle") // center the text 
-    .attr("dominant-baseline", "middle") // center the text 
     .text(function (d) { return d.BOOK; });
 
   // load the data for the books and update the other visualizations
