@@ -122,7 +122,6 @@ PieChartPercentage.prototype.update = function (story) {
     { sentiment: 'Positive', percentage: ((totalCount[2] / total) * 100).toFixed(2) },
   ];
 
-  // https://d3-graph-gallery.com/graph/pie_basic.html for making the pie chart + old studio, using d3.pie() to make the pie chart
   const pie = d3.pie()
     .value(d => parseFloat(d.percentage))
     .sort(null);

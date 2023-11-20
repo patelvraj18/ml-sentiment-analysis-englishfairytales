@@ -57,7 +57,7 @@ LineChart.prototype.update = function (story) {
     .domain([0, 1])
     .range([self.svgHeight, 0]);
 
-  // make line generators for each type of sentiment, https://d3js.org/d3-shape/line
+  // make line generators for each type of sentiment
   var positiveLine = d3.line()
     .x(function (d, i) { return xScale(i / (story.length - 1)); })
     .y(function (d) { return yScale(d.Positive_Score); });
@@ -92,7 +92,7 @@ LineChart.prototype.update = function (story) {
       .each(function () {
         totalLength[index] = this.getTotalLength();
       })
-      .attr("stroke-dasharray", totalLength[index] + " " + totalLength[index]) // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dasharray for the stroke-dasharray and stroke-dashoffset
+      .attr("stroke-dasharray", totalLength[index] + " " + totalLength[index])
       .attr("stroke-dashoffset", totalLength[index])
       .transition()
       .duration(2000)

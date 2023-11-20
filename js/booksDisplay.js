@@ -63,7 +63,7 @@ BooksDisplay.prototype.update = function () {
     .attr("fill", "#740F35")
     .attr("stroke", "white")
     .attr("class", "bookRect")
-    .on("click", function (event, d) { // handling click events to switch between books, https://www.geeksforgeeks.org/d3-js-selection-classed-function/
+    .on("click", function (event, d) { // handling click events to switch between books
       self.svg.selectAll("rect").classed("active", false);
       d3.select(this).classed("active", true);
       loadInfo(d.NUMBER);
@@ -101,6 +101,6 @@ BooksDisplay.prototype.update = function () {
   // trigger click on Book 1 by default
   self.svg.selectAll("rect")
     .filter(function (d) { return d.NUMBER === 1; })
-    .each(function (d) { this.dispatchEvent(new Event('click')); }); // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent
+    .each(function (d) { this.dispatchEvent(new Event('click')); });
 }
 

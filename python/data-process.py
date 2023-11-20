@@ -8,13 +8,10 @@ from transformers import RobertaTokenizer, RobertaForSequenceClassification
 from torch.nn.functional import softmax
 
 # used torch instead of numpy in this case
-# used assistance fom https://www.kaggle.com/code/robikscube/sentiment-analysis-python-youtube-tutorial/notebook to write the ML code
 
-# ensure the NLTK sentence tokenizer is downloaded, https://www.nltk.org/api/nltk.tokenize.punkt.html
 nltk.download("punkt")
 
 # initialize the RoBERTa model (training model using to acquire sentiment analysis) and tokenizer from the Hugging Face library
-# # https://huggingface.co/docs/transformers/model_doc/roberta
 model_name = "cardiffnlp/twitter-roberta-base-sentiment"  # specific model name
 tokenizer = RobertaTokenizer.from_pretrained(model_name)
 model = RobertaForSequenceClassification.from_pretrained(model_name)
@@ -31,7 +28,6 @@ def get_sentiment(text):
         output = model(**inputs).logits
 
     # get the probabilities with a softmax function to ensure the sum of the probabilities is 1, referred to the websites above and the one below
-    # https://pytorch.org/docs/stable/generated/torch.nn.functional.softmax.html
     probs = softmax(output, dim=-1)
 
     # create lists to store labels and confidences for each sentiment; define labels
@@ -214,7 +210,6 @@ negative_scores = []
 
 # process each story one by one
 for index, story in enumerate(stories, start=1):
-    # split the story into individual sentences using the NLTK sentence tokenizer, https://www.nltk.org/api/nltk.tokenize.html
     sentences = sent_tokenize(story)
     csv_output = []
 
@@ -241,10 +236,10 @@ for index, story in enumerate(stories, start=1):
         neutral_scores.append(confidences[1])
         negative_scores.append(confidences[0])
 
-    # define the output CSV file name for the current story in the "data" directory, https://docs.python.org/3/library/os.html
+    # define the output CSV file name for the current story in the "data" directory
     csv_file = os.path.join("../data/original", f"story_{index}_sentiment_data.csv")
 
-    # save the data to a CSV file in the "data" directory, https://docs.python.org/3/library/csv.html, https://www.geeksforgeeks.org/writing-csv-files-in-python/
+    # save the data to a CSV file in the "data" directory
     with open(csv_file, "w", newline="") as file:
         writer = csv.writer(file)  # create a CSV writer object to write data
         writer.writerow(

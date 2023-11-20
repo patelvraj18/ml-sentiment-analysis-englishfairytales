@@ -1,4 +1,3 @@
-// referred to assignment 2 when making this OOP approach :)
 (function () {
   var instance = null;
   function init() {
@@ -13,7 +12,7 @@
     booksDisplay.adjustDimensions();
     booksDisplay.update();
 
-    // window resize listener upon changing, https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+    // window resize listener upon changing
     window.addEventListener('resize', function () {
       booksDisplay.adjustDimensions();
       booksDisplay.update();
