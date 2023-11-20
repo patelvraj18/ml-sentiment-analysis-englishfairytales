@@ -25,12 +25,6 @@ BooksDisplay.prototype.init = function () {
 
 }
 
-// BooksDisplay.prototype.adjustDimensions = function () {
-//   var self = this;
-//   self.svgWidth = d3.select("#books-display").node().clientWidth - self.margin.left - self.margin.right;
-//   self.svg.attr("width", self.svgWidth);
-// }
-
 BooksDisplay.prototype.update = function () {
   var self = this;
 

@@ -1,3 +1,7 @@
+body {
+  background-color: #efdcc2;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -6,7 +10,6 @@
   margin-top: 55px;
   font-family: 'MedievalSharp', cursive;
   font-size: calc(1.5rem + 3vw);
-  /* Adjust the base size and scaling factor as needed */
 }
 
 .subtitle {
@@ -20,7 +23,6 @@
   font-weight: 200;
   font-style: italic;
   font-size: calc(1rem + 1.5vw);
-  /* Adjust the base size and scaling factor as needed */
 }
 
 .fullView {
@@ -35,12 +37,6 @@
   font-family: 'MedievalSharp', cursive;
   font-size: 1.25rem;
 }
-
-/* @media (max-width: 550px) {
-  #books-display {
-    font-size: 10px;
-  }
-} */
 
 #pie_chart_stuff {
   display: flex;
@@ -67,7 +63,6 @@
   justify-content: center;
   flex-direction: row;
   gap: 5%;
-  /* Use percentage to make it responsive */
   margin-top: 30px;
   flex-wrap: wrap;
 }
@@ -153,19 +148,6 @@
     margin-left: 70px;
   }
 }
-
-/* @media (max-width: 700px) {
-
-  #pie-chart-container,
-  #line-chart-container {
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .charts {
-    gap: 20px;
-  }
-} */
 
 .chart_text1 {
   font-family: 'MedievalSharp', cursive;
