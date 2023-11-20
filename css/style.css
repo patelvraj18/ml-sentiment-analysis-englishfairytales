@@ -122,10 +122,13 @@
     margin-left: 10px;
   }
 
-  #pie_chart_container,
-  #line_chart_container {
-    width: 100%;
+  #pie_chart_container {
+    width: 90%;
     margin-right: 0;
+  }
+
+  #line_chart_container {
+    width: 90%;
   }
 }
 
