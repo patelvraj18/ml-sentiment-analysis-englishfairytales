@@ -10,8 +10,8 @@ PieChartPercentage.prototype.init = function () {
   self.margin = { top: 30, right: 20, bottom: 30, left: 50 }; // svg margins
   var pieChartDiv = d3.select("#pie-chart") // div container in the html
 
-  self.svgWidth = 450 - self.margin.left - self.margin.right;
-  self.svgHeight = 400;
+  self.svgWidth = 350 - self.margin.left - self.margin.right;
+  self.svgHeight = 300;
 
   // creates svg element within the div
   self.mainSVG = pieChartDiv.append("svg")
