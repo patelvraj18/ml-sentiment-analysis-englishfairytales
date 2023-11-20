@@ -75,13 +75,14 @@
   padding: 10px;
 }
 
+
 #lineChartCheckboxes {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-top: 35px;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 .checkbox-title {
@@ -129,6 +130,20 @@
 
   #line_chart_container {
     width: 90%;
+  }
+}
+
+/* Existing styles */
+#line-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* New media query for screens 850px and wider */
+@media (min-width: 850px) {
+  #line-chart {
+    margin-left: 50px;
   }
 }
 

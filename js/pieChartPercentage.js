@@ -50,8 +50,8 @@ PieChartPercentage.prototype.drawLegend = function () {
     .range(['#9b1c31', '#002366', '#136207']);
 
   // dimensions for the legend
-  const legendSVGWidth = 200;
-  const legendSVGHeight = 150;
+  const legendSVGWidth = 100;
+  const legendSVGHeight = 75;
 
   const legendSVG = d3.select("#pie-chart-legend")
     .append("svg")
