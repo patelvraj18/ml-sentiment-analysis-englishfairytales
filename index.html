@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- make it screen responsive  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE457: Assignment 3 - Vraj Patel</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=MedievalSharp&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h2 class="info">Name: Vraj Patel; E-Mail: p.vraj@wustl.edu; UID: 501699</h2>
+  <h1 class="title">Once Upon a Time...</h1>
+  <h2 class="subtitle"> ~ a look into the emotional tone of English fairytales</h2>
+
+  <div id="books-display"></div>
+
+  <div class="charts">
+    <div id="pie_chart_container">
+      <h1 class="chart_text1">Emotional Tone Analysis - Pie Chart</h1>
+      <h2 class="chart_text2">~ see how much each story corresponds to varying emotions</h2>
+      <div id="pie_chart_stuff">
+        <div id="pie-chart"></div>
+        <div id="pie-chart-legend"></div>
+      </div>
+    </div>
+    <div id="line_chart_container">
+      <h1 class="chart_text1">Emotional Tone Over Time - Line Chart</h1>
+      <h2 class="chart_text2">~ see how much each emotional tone changes throughout the story</h2>
+      <div id="line-chart-stuff">
+        <div id="line-chart"></div>
+        <div id="lineChartCheckboxes">
+          <h3 class="checkbox-title">Emotional Tone: </h3>
+          <!-- referenced the following -->
+          <input type="checkbox" id="positiveCheckbox" checked>
+          <label for="positiveCheckbox" class="checkbox-label"> Positive</label>
+
+          <input type="checkbox" id="neutralCheckbox" checked>
+          <label for="neutralCheckbox" class="checkbox-label"> Neutral</label>
+
+          <input type="checkbox" id="negativeCheckbox" checked>
+          <label for="negativeCheckbox" class="checkbox-label"> Negative</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="d3-components/d3-tip/index.js"></script>
+  <script src="js/booksDisplay.js"></script>
+  <script src="js/lineChart.js"></script>
+  <script src="js/pieChartPercentage.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

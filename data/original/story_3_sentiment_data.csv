@@ -1,0 +1,58 @@
+Number,Sentence,Highest_Label,Positive_Score,Neutral_Score,Negative_Score
+1,"Once upon a time, there was a mighty baron in the North Countrie who was a great magician that knew everything that would come to pass.",Positive,0.5696614384651184,0.40935060381889343,0.02098788507282734
+2,"So one day, when his little boy was four years old, he looked into the Book of Fate to see what would happen to him.",Neutral,0.04695817083120346,0.9092879891395569,0.043753862380981445
+3,"And to his dismay, he found that his son would wed a lowly maid that had just been born in a house under the shadow of York Minster.",Negative,0.017455128952860832,0.2995641529560089,0.6829807758331299
+4,"Now the Baron knew the father of the little girl was very, very poor, and he had five children already.",Negative,0.015137958340346813,0.3022341728210449,0.6826278567314148
+5,"So he called for his horse, and rode into York; and passed by the father's house, and saw him sitting by the door, sad and doleful.",Neutral,0.0351870059967041,0.6140663027763367,0.35074669122695923
+6,"So he dismounted and went up to him and said: “What is the matter, my good man?” And the man said: “Well, your honour, the fact is, I've five children already, and now a sixth's come, a little lass, and where to get the bread from to fill their mouths, that's more than I can say.”
+“Don't be downhearted, my man,” said the Baron.",Neutral,0.0923764705657959,0.6642351150512695,0.24338845908641815
+7,"“If that's your trouble, I can help you.",Neutral,0.15556195378303528,0.7172558307647705,0.1271822452545166
+8,"I'll take away the last little one, and you wont have to bother about her.”
+“Thank you kindly, sir,” said the man; and he went in and brought out the lass and gave her to the Baron, who mounted his horse and rode away with her.",Neutral,0.23601503670215607,0.7333211898803711,0.030663741752505302
+9,"And when he got by the bank of the river Ouse, he threw the little, thing into the river, and rode off to his castle.",Neutral,0.06459683179855347,0.7656440734863281,0.16975903511047363
+10,"But the little lass didn't sink; her clothes kept her up for a time, and she floated, and she floated, till she was cast ashore just in front of a fisherman's hut.",Neutral,0.3074050545692444,0.6641437411308289,0.028451217338442802
+11,"There the fisherman found her, and took pity on the poor little thing and took her into his house, and she lived there till she was fifteen years old, and a fine handsome girl.",Positive,0.767170786857605,0.2206081748008728,0.012221083045005798
+12,"One day it happened that the Baron went out hunting with some companions along the banks of the River Ouse, and stopped at the fisherman's hut to get a drink, and the girl came out to give it to them.",Neutral,0.08506688475608826,0.8936360478401184,0.02129712514579296
+13,"They all noticed her beauty, and one of them said to the Baron: “You can read fates, Baron, whom will she marry, d'ye think?”
+“Oh!",Neutral,0.46146947145462036,0.5184052586555481,0.020125314593315125
+14,"that's easy to guess,” said the Baron; “some yokel or other.",Neutral,0.12603336572647095,0.7655211091041565,0.10844550281763077
+15,But I'll cast her horoscope.,Neutral,0.0672147274017334,0.8802464604377747,0.052538733929395676
+16,"Come here girl, and tell me on what day you were born?”
+“I don't know, sir,” said the girl, “I was picked up just here after having been brought down by the river about fifteen years ago.”
+Then the Baron knew who she was, and when they went away, he rode back and said to the girl: “Hark ye, girl, I will make your fortune.",Neutral,0.05850640684366226,0.7888255715370178,0.15266798436641693
+17,"Take this letter to my brother in Scarborough, and you will be settled for life.” And the girl took the letter and said she would go.",Neutral,0.07562457025051117,0.8762712478637695,0.04810413718223572
+18,"Now this was what he had written in the letter:
+“Dear Brother,—Take the bearer and put her to death immediately.",Negative,0.01080577913671732,0.31267884373664856,0.6765154004096985
+19,"“Yours affectionately,
+“Albert.”
+So soon after the girl set out for Scarborough, and slept for the night at a little inn.",Neutral,0.1331206113100052,0.8310413360595703,0.03583797439932823
+20,"Now that very night a band of robbers broke into the inn, and searched the girl, who had no money, and only the letter.",Negative,0.013527576811611652,0.39750805497169495,0.5889644026756287
+21,"So they opened this and read it, and thought it a shame.",Negative,0.010629146359860897,0.23863749206066132,0.7507333159446716
+22,"The captain of the robbers took a pen and paper and wrote this letter:
+“Dear Brother,—Take the bearer and marry her to my son immediately.",Neutral,0.048154961317777634,0.807096540927887,0.1447484791278839
+23,"“Yours affectionately,
+“Albert.”
+And then he gave it to the girl, bidding her begone.",Neutral,0.27017250657081604,0.7064608335494995,0.02336670644581318
+24,"So she went on to the Baron's brother at Scarborough, a noble knight, with whom the Baron's son was staying.",Neutral,0.05146298557519913,0.9331355690956116,0.015401427634060383
+25,"When she gave the letter to his brother, he gave orders for the wedding to be prepared at once, and they were married that very day.",Neutral,0.24997559189796448,0.7406556010246277,0.009368828497827053
+26,"Soon after, the Baron himself came to his brother's castle, and what was his surprise to find that the very thing he had plotted against had come to pass.",Neutral,0.11221205443143845,0.6828259229660034,0.20496204495429993
+27,"But he was not to be put off that way; and he took out the girl for a walk, as he said, along the cliffs.",Neutral,0.057714372873306274,0.8552344441413879,0.08705125749111176
+28,"And when he got her all alone, he took her by the arms, and was going to throw her over.",Neutral,0.03740425780415535,0.5599645972251892,0.40263116359710693
+29,But she begged hard for her life.,Negative,0.022537333890795708,0.4638635516166687,0.5135990977287292
+30,"“I have not done anything,” she said: “if you will only spare me, I will do whatever you wish.",Neutral,0.08489712327718735,0.7148836851119995,0.20021922886371613
+31,"I will never see you or your son again till you desire it.” Then the Baron took off his gold ring and threw it into the sea, saying: “Never let me see your face till you can show me that ring;” and he let her go.",Neutral,0.052518170326948166,0.5151247382164001,0.4323570430278778
+32,"The poor girl wandered on and on, till at last she came to a great noble's castle, and she asked to have some work given to her; and they made her the scullion girl of the castle, for she had been used to such work in the fisherman's hut.",Neutral,0.09816355258226395,0.764809787273407,0.13702665269374847
+33,"Now one day, who should she see coming up to the noble's house but the Baron and his brother and his son, her husband.",Neutral,0.043339699506759644,0.8823302984237671,0.07432999461889267
+34,She didn't know what to do; but thought they would not see her in the castle kitchen.,Neutral,0.04071468487381935,0.5954415798187256,0.36384376883506775
+35,"So she went back to her work with a sigh, and set to cleaning a huge big fish that was to be boiled for their dinner.",Neutral,0.09798705577850342,0.8081628084182739,0.09385009855031967
+36,"And, as she was cleaning it, she saw something shine inside it, and what do you think she found?",Neutral,0.32691705226898193,0.6648072004318237,0.008275741711258888
+37,"Why, there was the Baron's ring, the very one he had thrown over the cliff at Scarborough.",Neutral,0.03375501185655594,0.6709848046302795,0.29526016116142273
+38,"She was right glad to see it, you may be sure.",Positive,0.8872103691101074,0.10748271644115448,0.00530683109536767
+39,"Then she cooked the fish as nicely as she could, and served it up.",Positive,0.6570602655410767,0.3359528183937073,0.0069869691506028175
+40,"Well, when the fish came on the table, the guests liked it so well that they asked the noble who cooked it.",Positive,0.8124058842658997,0.179799884557724,0.007794259116053581
+41,"He said he didn't know, but called to his servants: “Ho, there, send up the cook that cooked that fine fish.” So they went down to the kitchen and told the girl she was wanted in the hall.",Neutral,0.047346897423267365,0.7626755833625793,0.1899774968624115
+42,Then she washed and tidied herself and put the Baron's gold ring on her thumb and went up into the hall.,Neutral,0.13724781572818756,0.8495385646820068,0.013213534839451313
+43,When the banqueters saw such a young and beautiful cook they were surprised.,Positive,0.8452820777893066,0.14042288064956665,0.014295061118900776
+44,"But the Baron was in a tower of a temper, and started up as if he would do her some violence.",Negative,0.015302103944122791,0.39077576994895935,0.5939221382141113
+45,So the girl went up to him with her hand before her with the ring on it; and she put it down before him on the table.,Neutral,0.07392700016498566,0.8908437490463257,0.03522918373346329
+46,"Then at last the Baron saw that no one could fight against Fate, and he handed her to a seat and announced to all the company that this was his son's true wife; and he took her and his son home to his castle; and they all lived as happy as could be ever afterwards.",Positive,0.8460636734962463,0.14898863434791565,0.004947667475789785

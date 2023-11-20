@@ -1,0 +1,47 @@
+Number,Sentence,Highest_Label,Positive_Score,Neutral_Score,Negative_Score
+1,Mr. and Mrs. Vinegar lived in a vinegar bottle.,Neutral,0.0621795579791069,0.8549461960792542,0.08287428319454193
+2,"Now, one day, when Mr. Vinegar was from home, Mrs. Vinegar, who was a very good housewife, was busily sweeping her house, when an unlucky thump of the broom brought the whole house clitter-clatter, clitter-clatter, about her ears.",Neutral,0.2653099596500397,0.5872752666473389,0.14741481840610504
+3,In an agony of grief she rushed forth to meet her husband.,Neutral,0.047515179961919785,0.6214061975479126,0.33107858896255493
+4,"On seeing him she exclaimed, “Oh, Mr. Vinegar, Mr. Vinegar, we are ruined, I have knocked the house down, and it is all to pieces!” Mr. Vinegar then said: “My dear, let us see what can be done.",Negative,0.05080283433198929,0.28257468342781067,0.6666224598884583
+5,"Here is the door; I will take it on my back, and we will go forth to seek our fortune.”
+They walked all that day, and at nightfall entered a thick forest.",Neutral,0.1836320161819458,0.8018233180046082,0.014544644393026829
+6,"They were both very, very tired, and Mr. Vinegar said: “My love, I will climb up into a tree, drag up the door, and you shall follow.” He accordingly did so, and they both stretched their weary limbs on the door, and fell fast asleep.",Neutral,0.1446586698293686,0.7107933163642883,0.14454802870750427
+7,"In the middle of the night Mr. Vinegar was disturbed by the sound of voices underneath, and to his horror and dismay found that it was a band of thieves met to divide their booty.",Negative,0.0054599326103925705,0.12604370713233948,0.868496298789978
+8,"“Here, Jack,” said one, “here's five pounds for you; here, Bill, here's ten pounds for you; here, Bob, here's three pounds for you.”
+Mr. Vinegar could listen no longer; his terror was so great that he trembled and trembled, and shook down the door on their heads.",Negative,0.060659825801849365,0.41510456800460815,0.5242356061935425
+9,"Away scampered the thieves, but Mr. Vinegar dared not quit his retreat till broad daylight.",Neutral,0.034479886293411255,0.6417654752731323,0.3237546384334564
+10,"He then scrambled out of the tree, and went to lift up the door.",Neutral,0.15440456569194794,0.8105276823043823,0.03506772592663765
+11,What did he see but a number of golden guineas.,Neutral,0.06820248812437057,0.8013536930084229,0.13044384121894836
+12,"“Come down, Mrs. Vinegar,” he cried; “come down, I say; our fortune's made, our fortune's made!",Positive,0.5283398628234863,0.417668879032135,0.05399133265018463
+13,"Come down, I say.”
+Mrs. Vinegar got down as fast as she could, and when she saw the money she jumped for joy.",Positive,0.8493984937667847,0.1442284882068634,0.0063729556277394295
+14,"“Now, my dear,” said she, “I'll tell you what you shall do.",Neutral,0.051310744136571884,0.8459768295288086,0.10271249711513519
+15,There is a fair at the neighbouring town; you shall take these forty guineas and buy a cow.,Neutral,0.051328349858522415,0.867295503616333,0.08137620985507965
+16,"I can make butter and cheese, which you shall sell at market, and we shall then be able to live very comfortably.”
+Mr. Vinegar joyfully agrees, takes the money, and off he goes to the fair.",Positive,0.8336225748062134,0.1618966907262802,0.004480728879570961
+17,"When he arrived, he walked up and down, and at length saw a beautiful red cow.",Positive,0.8321564197540283,0.16478195786476135,0.00306156137958169
+18,"It was an excellent milker, and perfect in every way.",Positive,0.9652177691459656,0.03165550157427788,0.0031268044840544462
+19,"“Oh,” thought Mr. Vinegar, “if I had but that cow, I should be the happiest, man alive.”
+So he offers the forty guineas for the cow, and the owner said that, as he was a friend, he'd oblige him.",Positive,0.5625582337379456,0.41286253929138184,0.024579208344221115
+20,"So the bargain was made, and he got the cow and he drove it backwards and forwards to show it.",Neutral,0.06035716459155083,0.8117416501045227,0.12790116667747498
+21,By-and-by he saw a man playing the bagpipes—Tweedle-dum tweedle-dee.,Neutral,0.13146616518497467,0.8048174381256104,0.06371644139289856
+22,"The children followed him about, and he appeared to be pocketing money on all sides.",Neutral,0.03745522350072861,0.7260549068450928,0.23648987710475922
+23,"“Well,” thought Mr. Vinegar, “if I had but that beautiful instrument I should be the happiest man alive—my fortune would be made.”
+So he went up to the man.",Positive,0.8204565048217773,0.1673961877822876,0.012147285044193268
+24,"“Friend,” says he, “what a beautiful instrument that is, and what a deal of money you must make.” “Why, yes,” said the man, “I make a great deal of money, to be sure, and it is a wonderful instrument.” “Oh!” cried Mr. Vinegar, “how I should like to possess it!” “Well,” said the man, “as you are a friend, I don't much mind parting with it; you shall have it for that red cow.” “Done!” said the delighted Mr. Vinegar.",Positive,0.8879045844078064,0.10251159965991974,0.009583805687725544
+25,So the beautiful red cow was given for the bagpipes.,Positive,0.7113195061683655,0.2807297110557556,0.00795079581439495
+26,"He walked up and down with his purchase; but it was in vain he tried to play a tune, and instead of pocketing pence, the boys followed him hooting, laughing, and pelting.",Neutral,0.13763272762298584,0.5901721715927124,0.2721951901912689
+27,"Poor Mr. Vinegar, his fingers grew very cold, and, just as he was leaving the town, he met a man with a fine thick pair of gloves.",Neutral,0.11442706733942032,0.5001043081283569,0.38546866178512573
+28,"“Oh, my fingers are so very cold,” said Mr. Vinegar to himself.",Negative,0.02112782932817936,0.25586792826652527,0.7230042815208435
+29,"“Now if I had but those beautiful gloves I should be the happiest man alive.” He went up to the man, and said to him, “Friend, you seem to have a capital pair of gloves there.” “Yes, truly,” cried the man; “and my hands are as warm as possible this cold November day.” “Well,” said Mr. Vinegar, “I should like to have them.”.",Positive,0.8801119327545166,0.11402644217014313,0.005861612502485514
+30,"“What will you give?” said the man; “as you are a friend, I don't much mind letting you have them for those bagpipes.” “Done!” cried Mr. Vinegar.",Neutral,0.2095058709383011,0.6385376453399658,0.15195655822753906
+31,"He put on the gloves, and felt perfectly happy as he trudged homewards.",Positive,0.9141385555267334,0.08095359057188034,0.004907826893031597
+32,"At last he grew very tired, when he saw a man coming towards him with a good stout stick in his hand.",Neutral,0.05786672234535217,0.5435584783554077,0.3985748589038849
+33,"“Oh,” said Mr. Vinegar, “that I had but that stick!",Neutral,0.1194421723484993,0.7270001769065857,0.15355759859085083
+34,I should then be the happiest man alive.” He said to the man: “Friend!,Positive,0.8954437971115112,0.10034268349409103,0.004213491454720497
+35,"what a rare good stick you have got.” “Yes,” said the man; “I have used it for many a long mile, and a good friend it has been; but if you have a fancy for it, as you are a friend, I don't mind giving it to you for that pair of gloves.” Mr. Vinegar's hands were so warm, and his legs so tired, that he gladly made the exchange.",Positive,0.7657558917999268,0.2221096158027649,0.012134460732340813
+36,"As he drew near to the wood where he had left his wife, he heard a parrot on a tree calling out his name: “Mr.",Neutral,0.10751824080944061,0.8592730164527893,0.03320877626538277
+37,"Vinegar, you foolish man, you blockhead, you simpleton; you went to the fair, and laid out all your money in buying a cow.",Negative,0.0029902213718742132,0.03147919848561287,0.9655305743217468
+38,"Not content with that, you changed it for bagpipes, on which you could not play, and which were not worth one-tenth of the money.",Negative,0.0062788394279778,0.09215488284826279,0.9015663862228394
+39,"You fool, you—you had no sooner got the bagpipes than you changed them for the gloves, which were not worth one-quarter of the money; and when you had got the gloves, you changed them for a poor miserable stick; and now for your forty guineas, cow, bagpipes, and gloves, you have nothing to show but that poor miserable stick, which you might have cut in any hedge.” On this the bird laughed and laughed, and Mr. Vinegar, falling into a violent rage, threw the stick at its head.",Negative,0.02624613791704178,0.20671135187149048,0.7670424580574036
+40,"The stick lodged in the tree, and he returned to his wife without money, cow, bagpipes, gloves, or stick, and she instantly gave him such a sound cudgelling that she almost broke every bone in his skin.",Neutral,0.07611839473247528,0.4719989597797394,0.45188266038894653

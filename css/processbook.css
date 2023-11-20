@@ -1,0 +1,40 @@
+h1 {
+  margin-left: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.questions_answers {
+  margin-left: 50px;
+}
+
+.question {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-style: bold;
+  font-size: 40px;
+}
+
+.answer {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 34px;
+  font-style: italic;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.sketch {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
