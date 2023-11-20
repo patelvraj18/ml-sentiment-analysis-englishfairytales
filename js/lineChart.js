@@ -10,7 +10,7 @@ LineChart.prototype.init = function () {
   self.margin = { top: 30, right: 20, bottom: 60, left: 70 }; // margins
   var lineChartDiv = d3.select("#line-chart")
 
-  self.svgWidth = 430 - self.margin.left - self.margin.right;
+  self.svgWidth = 400 - self.margin.left - self.margin.right;
   self.svgHeight = 350;
 
   self.mainSVG = lineChartDiv.append("svg")

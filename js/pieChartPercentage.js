@@ -68,7 +68,7 @@ PieChartPercentage.prototype.drawLegend = function () {
       const height = legendRectSize + legendSpacing;
       const offset = height * color.domain().length / 2; // if needed
       const horz = 10;
-      const vert = i * height + legendSpacing;
+      const vert = (i * height + legendSpacing);
       return 'translate(' + horz + ',' + vert + ')'; // translate the legend
     });
 

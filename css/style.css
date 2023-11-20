@@ -50,6 +50,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  transform: translate(-40px, 270px);
 }
 
 
